@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97731DE7-FBC3-48B0-90DB-7C1E3505876A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>prjWinRemaxTaianaAntokhine</RootNamespace>
+    <AssemblyName>prjWinRemaxTaianaAntokhine</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAdmin.cs" />
+    <Compile Include="clsAgent.cs" />
+    <Compile Include="clsBuyer.cs" />
+    <Compile Include="clsClient.cs" />
+    <Compile Include="clsGlobalVaiables.cs" />
+    <Compile Include="clsHouse.cs" />
+    <Compile Include="clsListAgents.cs" />
+    <Compile Include="clsListClients.cs" />
+    <Compile Include="clsListHouses.cs" />
+    <Compile Include="clsSeller.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EnumTypes.cs" />
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageClient.Designer.cs">
+      <DependentUpon>frmManageClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageEmployees.Designer.cs">
+      <DependentUpon>frmManageEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageHouse.Designer.cs">
+      <DependentUpon>frmManageHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManagement.Designer.cs">
+      <DependentUpon>frmManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchAgent.Designer.cs">
+      <DependentUpon>frmSearchAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchHouse.Designer.cs">
+      <DependentUpon>frmSearchHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="placeholder.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageClient.resx">
+      <DependentUpon>frmManageClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageEmployees.resx">
+      <DependentUpon>frmManageEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageHouse.resx">
+      <DependentUpon>frmManageHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManagement.resx">
+      <DependentUpon>frmManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchAgent.resx">
+      <DependentUpon>frmSearchAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchHouse.resx">
+      <DependentUpon>frmSearchHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RealEstateClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-david-mcbee-1486785.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-jessica-bryant-13707042.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

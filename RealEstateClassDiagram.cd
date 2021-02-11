@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="prjWinRemaxTaianaAntokhine.clsAdmin">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQAEAAEAAAAABAAAAAAAAAAAAAAAhAA=</HashCode>
+      <FileName>clsAdmin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="agent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsAgent">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEQCAAAEAgAAAAAAAAAAAAAAAgAAAANQAAAAQ=</HashCode>
+      <FileName>clsAgent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsBuyer">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEABAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clsBuyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsClient">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAEACBAAAggoAAAAAAAAAIAAAAioAIAKAACAAg=</HashCode>
+      <FileName>clsClient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="house" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsHouse">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAUFAAgFJQAYQAAgCMIAACwCAAAkCAAAAIgACIAAACA=</HashCode>
+      <FileName>clsHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsListAgents" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABAAAAAAAAAQAQAAAAEIAAAAAAAAgAEAAAA=</HashCode>
+      <FileName>clsListAgents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsListClients" Collapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAAAAAAAAAAAAQAQAAAAEIAAAAAAAAgAEAAAA=</HashCode>
+      <FileName>clsListClients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsListHouses" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAQAQAAACEIAAAAAAAAgAEAAAA=</HashCode>
+      <FileName>clsListHouses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.clsSeller">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clsSeller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjWinRemaxTaianaAntokhine.Employee" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQEAEAABACAAEAAAAAAAAAAIAAAACAAAACAAIAEg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
